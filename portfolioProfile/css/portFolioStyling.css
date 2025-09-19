@@ -86,6 +86,24 @@ this is the main section styling apart from the side panel
     position: relative;
 }
 
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 17px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background-color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+.btn:hover
+{
+    transform: scale(1.05);
+}
 
 
 
@@ -136,6 +154,8 @@ this is the side panel styling
     /*font-family: 'Kode Mono',cursive;*/
     font-family: 'Clicker Script', cursive;
     font-family: 40px;
+    color: var(--skin-color);
+    font-size: 40px;
 }
 
 .asidePanel  .logo a::before
@@ -286,6 +306,23 @@ h3.hello span
     color: var(--skin-color);
 }
 
+h3.my-profession
+{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.typing 
+{
+    color: var(--skin-color);
+}
+
+.home-info p
+{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
 
 .home .home-img
 {
@@ -295,10 +332,46 @@ h3.hello span
     position: relative;
 }
 
+/* Styling for lager screen*/
+
+
+.home-img::after
+{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 20px;
+    bottom: -40px;
+}
+
+
+.home-img::before
+{
+   content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: -20px;
+    top: -40px;
+}
+/*end of styling for larger screens*/
+
+
+
+
+
 /* Home image*/
 .home .home-img img
 {
+    margin: auto;
+    border-radius: 8.5px;
     height: 400px;
+    width: 335px;
 }
 
 
@@ -316,14 +389,34 @@ h3.hello span
 
 
 
+/*responsive screen*/
+/* @media screen and (max-width: 1300px) {
+   body {
+        background: red !important;
+    }
+} */
 
 
-.glassBackground {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.glassBackground {
     block-size: fit-content;
-    background: rgba(255, 255, 255, 0.2); /* Transparent white */
-    backdrop-filter: blur(10px); /* Frosted glass effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2); */ /* Transparent white */
+ /*   backdrop-filter: blur(10px); */ /* Frosted glass effect */
+  /*  -webkit-backdrop-filter: blur(10px); */ /* Safari support */
+ /*   border-radius: 15px;
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -335,4 +428,4 @@ h3.hello span
     padding: 0.1px 8px;
     margin: 2px;
     display: inline-block;
-}
+}*/
