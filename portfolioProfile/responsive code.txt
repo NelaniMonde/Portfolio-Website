@@ -1,0 +1,26 @@
+/*responsive screen*/
+@media screen and (max-width: 685px) 
+{
+ .home-img::after {
+        
+        height: 50px;  
+        width: 50px;
+        border-bottom: 6px solid var(--skin-color);
+        border-right: 6px solid var(--skin-color);
+        right: 10px;   /* pull it closer */
+       bottom: -25px;
+    } 
+    .sidesection
+    {
+     background-color: blue;
+    }
+
+    .home-img::before {
+        height: 50px;
+        width: 50px;
+        border-top: 6px solid var(--skin-color);
+        border-left: 6px solid var(--skin-color);
+        left: -10px;   /* adjust inward */
+        top: -25px;
+    }
+}

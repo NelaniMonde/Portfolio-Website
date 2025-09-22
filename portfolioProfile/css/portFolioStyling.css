@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 /*
-Color variables section
+Color variables 
 */
 :root
 {
@@ -54,14 +54,22 @@ this is the main section styling apart from the side panel
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 270px;
+    /* position: fixed;
+    left: 270px; */
     padding: 0 30px;
-    top: 0;
+    /* top: 0;
     right: 0;
-    z-index: 0;
+    z-index: 0; */
     opacity: 1;
 }
+
+
+/* Main content styling  */
+.main-container
+{
+    padding-left: 270px;
+}
+
 
 .padd-15
 {
@@ -153,7 +161,7 @@ this is the side panel styling
 {
     /*font-family: 'Kode Mono',cursive;*/
     font-family: 'Clicker Script', cursive;
-    font-family: 40px;
+    
     color: var(--skin-color);
     font-size: 40px;
 }
@@ -330,11 +338,10 @@ h3.my-profession
     max-width: 40% ;
     text-align: center;
     position: relative;
+   
 }
 
 /* Styling for lager screen*/
-
-
 .home-img::after
 {
     content: '';
@@ -343,7 +350,7 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
+    right: 10px;
     bottom: -40px;
 }
 
@@ -356,7 +363,8 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: -5px;
+    margin-left: 3%;
     top: -40px;
 }
 /*end of styling for larger screens*/
@@ -377,24 +385,7 @@ h3.my-profession
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*responsive screen*/
-/* @media screen and (max-width: 1300px) {
-   body {
-        background: red !important;
-    }
-} */
+ 
 
 
 
