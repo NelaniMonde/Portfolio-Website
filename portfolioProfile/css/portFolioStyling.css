@@ -513,6 +513,16 @@ h3.my-profession
     display: inline-block;
 }
 
+.about .about-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+
+.about .about-content .personal-info .buttons .btn
+{
+    margin-right: 15px;
+    margin-top: 10px;
+}
 /*== Personal Info End ==*/
 
 
@@ -521,9 +531,37 @@ h3.my-profession
 {
     flex: 0 0 40%;
     max-width: 40%;
-    
     margin-top: 40px;
 }
+
+.about .about-content .skills .skill-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.about .about-content .skills .skill-item .progress
+{
+ background-color: var(--bg-black-50);
+ height: 7px;
+ border-radius: 4px;
+ width: 100%;
+}
+
+.about .about-content .skills .skill-item 
+{
+    margin-bottom: 30px;
+}
+
 /*== Skills Info Start ==*/
 
 /*== End of About Section ==*/
