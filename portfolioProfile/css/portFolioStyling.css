@@ -654,9 +654,76 @@ h3.my-profession
     background-color: var(--skin-color);
 }
 
+.about .about-content .timeline .circle-dot
+{
+    position: absolute;/* break away from parent container position*/
+    /*position: relative; use the parent container position*/
+    /*margin-left: -37px;*/
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+
+.about .about-content .timeline .timeline-date 
+{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-date .fa 
+{
+    margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-text
+{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
+
 /*== Education and Experience ==*/
 
 /*== End of About Section ==*/
+
+/*== Start of Service Section ==*/
+
+.service .service-item
+{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.service .service-item .service-item-inner
+{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.35 ease;
+}
+
+/*== End of Service Section ==*/
+
+
+
 
  
 
