@@ -414,21 +414,12 @@ h3.my-profession
 }
 
 /* Styling for lager screen*/
-.home-img::after
-{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 10px;
-    bottom: -40px;
-}
+
 
 
 .home-img::before
 {
+    border-radius: 5px;
    content: '';
     position: absolute;
     height: 80px;
@@ -439,6 +430,23 @@ h3.my-profession
     margin-left: 3%;
     top: -40px;
 }
+
+
+
+.home-img::after
+{
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 10px;
+    bottom: -20px; 
+}
+
+
 /*end of styling for larger screens*/
 
 /* Home image*/
@@ -819,6 +827,150 @@ h3.my-profession
 }
 /*== End of Portfolio Section ==*/
 
+/*==Start of Contact Section ==*/
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+    
+}
+
+.contact .contact-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+} 
+
+.contact .contact-info-item .icon 
+{
+    display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa
+{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.fa-brands 
+{
+    font-size: 25px;
+    color: var(--whatsAppColor);
+}
+
+.contact .contact-info-item h4
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+
+.contact .contact-info-item p
+{
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-weight: 400;
+
+}
+
+.contact .contact-form
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact .contact-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .form-item
+{
+    margin-bottom: 30px;
+}
+
+.contact .contact-form .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.4s ease;
+}
+
+.contact .contact-form .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.contact .contact-form .form-item textarea.form-control
+{
+    height: 149px;
+}
+
+.contact .contact-form .btn
+{
+    height: 50px;
+    padding: 0 50px;
+}
+/*==End of Contact Section ==*/
+
+/*== Responsive styling code Start==*/
+@media (max-width:1199px)
+{
+    .asidePanel
+    {
+        left: -270px;
+    }
+
+    .main-container
+    {
+        padding-left: 0;
+    }
+
+    .about .about-content .personal-info .info-item p span
+    {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px)
+{
+    .home .home-img
+    {
+        display: none;
+    }
+}
+
+
+/*== Responsive styling code End==*/
 
 
 
