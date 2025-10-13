@@ -54,12 +54,9 @@ this is the main section styling apart from the side panel
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    /* position: fixed;
-    left: 270px; */
+   
     padding: 0 30px;
-    /* top: 0;
-    right: 0;
-    z-index: 0; */
+  
     opacity: 1;
 }
 
@@ -186,12 +183,7 @@ other values and internal classes*/
 
 
 
-/*
-Start of side panel styling
-*/
-/*
-this is the side panel styling 
-*/
+/* ASide panel styling */
 .asidePanel
 {
     width: 270px;
@@ -354,9 +346,7 @@ the number of list items continue */
 {
     margin: 2px;
 }
-/**
-end of side panel styling 
-**/
+/** End of ASide panel styling **/
 
 .home
 {
@@ -410,10 +400,10 @@ h3.my-profession
     max-width: 40% ;
     text-align: center;
     position: relative;
+
    
 }
 
-/* Styling for lager screen*/
 
 
 
@@ -426,8 +416,8 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -5px;
-    margin-left: 3%;
+    left: -20px;
+    
     top: -40px;
 }
 
@@ -442,7 +432,7 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 10px;
+    right: 20px;
     bottom: -20px; 
 }
 
@@ -807,8 +797,8 @@ h3.my-profession
 
 .portfolio .portfolio-item
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 97.33%;
+    max-width: 97.33%;
     margin-bottom: 30px;
 }
 
@@ -963,10 +953,43 @@ h3.my-profession
 
 @media (max-width:991px)
 {
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .about .about-content .education,
+    /* .about .about-content .experience, */
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
     .home .home-img
     {
         display: none;
     }
+}
+
+@media (max-width:767px)
+{
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
 }
 
 
