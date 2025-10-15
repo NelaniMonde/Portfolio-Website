@@ -5,9 +5,21 @@
     <title>Monde Nelani's Porfolio</title>
     <link rel="stylesheet" href="css\portFolioStyling.css"/>
     <link rel="stylesheet" href="css\portfolioStylingColor.css">
+
+    <!--=== Font Awesome styling ===-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-      <script src="javaScript/portFlioBehavior.js"></script>
+    <!--=== Theme Switcher Styling ===-->
+    <link rel="stylesheet" href="css/themes/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/themes/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/themes/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/themes/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/themes/color-5.css" class="alternate-style" title="color-5" disabled>
+
+    <link rel="stylesheet" href="css/theme-switcher.css">
+
+
+      
     
 </head>
 <body>
@@ -577,15 +589,19 @@
     <!-- Theme Styling Start-->
      <div class="theme-switcher">
       <div class="theme-switcher-toggler s-icon">
-        <i class="fas fa-cog fa-skin"></i>
+        <i class="fas fa-cog fa-spin"></i>
       </div>
 
-      <div class="day-night-s-icon">
+      <div class="day-night s-icon">
         <i class="fas fa-moon"></i>
       </div>
       <h4>Theme Colors</h4>
       <div class="colors">
         <span class="color-1" onclick="setTheme('color-1')"></span>
+        <span class="color-2" onclick="setTheme('color-2')"></span>
+        <span class="color-3" onclick="setTheme('color-3')"></span>
+        <span class="color-4" onclick="setTheme('color-4')"></span>
+        <span class="color-5" onclick="setTheme('color-5')"></span>
       </div>
      </div>
     <!-- Theme Styling End-->
@@ -595,8 +611,13 @@
     <!-- footer end-->
 
   <!-- JS Files -->
-    
+<script src="javaScript/theme-switcher-script.js"></script>    
+
 </body>
+
+<!-- <script src="javaScript/portFlioBehavior.js"></script> -->
+
+
 </html>
 
 

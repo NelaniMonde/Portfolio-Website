@@ -356,6 +356,12 @@ the number of list items continue */
 
 }
 
+/*== Changed this recently 14/10/2025 ==*/
+.home .row
+{
+    margin-top: 100px;
+}
+
 .home .home-info
 {
  flex: 0 0 60%;
@@ -444,7 +450,7 @@ h3.my-profession
 {
     margin: auto;
     border-radius: 8.5px;
-    height: 400px;
+    height: 390px;
     width: 335px;
 }
 /*== End of Home Image ==*/
@@ -991,8 +997,6 @@ h3.my-profession
     }
 
 }
-
-
 /*== Responsive styling code End==*/
 
 
