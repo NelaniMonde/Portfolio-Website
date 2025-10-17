@@ -15,6 +15,15 @@ Color variables
      
 }
 
+body.dark
+{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffffff;
+    --text-black-700:#e9e9e9;
+}
+
 body
 {
    
@@ -405,11 +414,8 @@ h3.my-profession
     flex: 0 0 40%;
     max-width: 40% ;
     text-align: center;
-    position: relative;
-
-   
+    position: relative;  
 }
-
 
 
 
