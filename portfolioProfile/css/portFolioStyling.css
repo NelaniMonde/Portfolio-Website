@@ -345,7 +345,7 @@ this will affect all the links that are inside the list li inside the un-ordered
 
 .asidePanel .nav li a.active
 {
-    color: purple;
+    color: var(--skin-color);
 }
 
 
@@ -706,6 +706,10 @@ h3.my-profession
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+}
+
+.list-item-spacing {
+  margin-top: 10px;
 }
 
 /*== Education and Experience ==*/
