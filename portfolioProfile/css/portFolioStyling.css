@@ -798,6 +798,11 @@ h3.my-profession
     padding-bottom: 40px;
 }
 
+.portfolio .portfolio-item-inner .portfolio-img span
+{
+    font-weight: bold;
+}
+
 .portfolio .portfolio-heading
 {
     flex: 0 0 100%;
@@ -813,9 +818,9 @@ h3.my-profession
 
 .portfolio .portfolio-item
 {
-    flex: 0 0 45.33%;
-    max-width: 48.90%;
-    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 10px;
 }
 
 .portfolio .portfolio-item-inner
@@ -830,6 +835,7 @@ h3.my-profession
 {
     width: 100%;
     display: block;
+    height:155px;
 }
 /*== End of Portfolio Section ==*/
 
