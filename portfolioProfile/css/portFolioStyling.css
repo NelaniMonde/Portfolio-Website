@@ -611,7 +611,7 @@ h3.my-profession
     /* background-color: red; */
 }
 
-/* .about .about-content .experience
+/* .about .about-content .experience 
 {
     background-color: royalblue;
 } */
@@ -708,9 +708,14 @@ h3.my-profession
     color: var(--text-black-700);
 }
 
+
+
 .list-item-spacing {
   margin-top: 10px;
+  color: var(--text-black-900);
 }
+
+
 
 /*== Education and Experience ==*/
 
@@ -801,6 +806,13 @@ h3.my-profession
 .portfolio .portfolio-item-inner .portfolio-img span
 {
     font-weight: bold;
+    color: var(--text-black-900);
+}
+
+
+.portfolio .portfolio-item-inner .portfolio-img p
+{
+  color: var(--text-black-700);
 }
 
 .portfolio .portfolio-heading
