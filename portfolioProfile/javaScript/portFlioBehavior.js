@@ -46,8 +46,12 @@ function sendMail()
     else
     {
      
-     window.location.href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=nnelanimonde@gmail.com&su="+subject+
+    window.open("https://mail.google.com/mail/u/0/?view=cm&fs=1&to=nnelanimonde@gmail.com&su="+subject+
      "&body="+message+
-     "%0D%0A%0D%0AFrom:%20"+name+"%0D%0AEmail:%20"+email;
+     "%0D%0A%0D%0AFrom:%20"+name+"%0D%0AEmail:%20"+email,"_blank");
+        
+    //  window.location.href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=nnelanimonde@gmail.com&su="+subject+
+    //  "&body="+message+
+    //  "%0D%0A%0D%0AFrom:%20"+name+"%0D%0AEmail:%20"+email;
     }
 }
