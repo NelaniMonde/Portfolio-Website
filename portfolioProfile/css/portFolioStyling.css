@@ -1024,6 +1024,12 @@ h3.my-profession
         max-width: 100%;
     }
 
+      .home .home-info
+      {
+          flex: 0 0 100%;
+        max-width: 80%;
+      }
+
 }
 /*== Responsive styling code End==*/
 
