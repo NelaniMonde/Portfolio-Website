@@ -1056,15 +1056,7 @@ h3.my-profession
         width:100%;
     }
 
-  .home .home-info {
-        width: 45% !important;
-        max-width: 100% !important;
-        padding: 15px !important;
-        box-sizing: border-box;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        white-space: normal !important;
-    }
+ 
 
     /* optional improvement for readability */
     .home .home-info p {
@@ -1134,6 +1126,22 @@ h3.my-profession
         overflow-x: hidden;
     }
 }
+
+
+@media  (max-width: 414px)
+{
+  .home .home-info {
+        width: 45% !important;
+        max-width: 100% !important;
+        padding: 15px !important;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal !important;
+    }
+}
+    
+
 
 
 
